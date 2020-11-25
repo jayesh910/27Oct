@@ -1,3 +1,2 @@
 Register page  removing watermarks
-Profile Page old
-
+Profile Page new
