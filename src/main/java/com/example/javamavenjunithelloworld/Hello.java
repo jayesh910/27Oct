@@ -35,7 +35,7 @@ public class Hello {
      * @param printer PrintStream to write output to.
      */
     public void sayHello(PrintStream printer) {
-        for (var i = 0; i < times; i++) {
+        for (short i = 0; i < times; i++) {
             printer.println(HELLO);
         }
     }

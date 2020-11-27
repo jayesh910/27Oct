@@ -18,7 +18,7 @@ public class HelloApp {
      */
     public static void main(String[] args) {
 
-        var times = DEFAULT_TIMES;
+        int times = DEFAULT_TIMES;
         if (args.length >= 1) {
             try {
                 times = Integer.valueOf(args[0]);
@@ -29,7 +29,7 @@ public class HelloApp {
             }
         }
 
-        var hi = new Hello();
+        Hello hi = new Hello();
         try {
             hi.setTimes(times);
         } catch (IllegalArgumentException e) {
